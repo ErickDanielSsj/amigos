@@ -9,14 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class ControladorHola {
 
-    //Aqui van los resursos
     //Este primer recurso es tu hola mundo de un servicio REST que usa el metodo
     //GET
-    @GetMapping("/Hola")//OBTENER INFORMACION DESDE EL NAVEGADOR
+    @GetMapping("/hola")
     public String saludar(){
 
-        return "Hola desde mi primer servicio REST";
+        return " Hola desde mi primer servicio REST";
     }
-
 
 }

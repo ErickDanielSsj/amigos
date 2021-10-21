@@ -1,7 +1,6 @@
 package com.unitec.amigos;
 
 public class Estatus {
-
     String mensaje;
     boolean success;
 
